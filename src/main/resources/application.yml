@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test
+
+springdoc:
+  api-docs:
+    path: /api-docs  # OpenAPI JSON 文件路徑，預設為 /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html  # Swagger UI 頁面路徑，預設為 /swagger-ui.html
+    enabled: true           # 啟用或禁用 Swagger UI
